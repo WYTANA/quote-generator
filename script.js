@@ -17,7 +17,6 @@ function hideLoadingSpinner() {
   }
 }
 
-// Get Quote from API
 async function getQuoteFromApi() {
   showLoadingSpinner();
   // Use Proxy URL to make API call in order to avoid CORS
